@@ -10,11 +10,11 @@ export default {
 } as Meta;
 
 const Template: Story = (args) => {
-	return <Button {...args}>Hello!</Button>
+	return <Button {...args}>Hello!</Button>;
 };
 
 export const Default = Template.bind({});
 
 Default.args = {
-  disabled: false,
+	disabled: false,
 };
